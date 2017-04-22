@@ -4,13 +4,13 @@ class ToDoItem extends Component {
   constructor(props) {
     super(props);
 
-    this.strikeThrough = this.strikeThrough.bind(this);
+    this.makeStruck = this.makeStruck.bind(this);
     this.state = {
       checked: false,
     };
   }
 
-  strikeThrough() {
+  makeStruck() {
     const { checked } = this.state;
 
     this.setState({
@@ -21,11 +21,14 @@ class ToDoItem extends Component {
   render() {
     const { anItem } = this.props;
     const { checked } = this.state;
+    let theItem = anItem;
+    if (checked)
+      theItem = <strike>{anItem}</strike>;
     return (
       <div>
         <label>
-          <input type="checkbox" onClick={this.strikeThrough} checked={checked} />
-          {anItem}
+          <input type="checkbox" onClick={this.makeStruck} checked={checked} />
+          {theItem}
         </label>
         <br />
       </div>

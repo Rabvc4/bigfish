@@ -1,0 +1,12 @@
+.Nav-logo {
+  height: auto;
+  width: auto;
+  max-width: 64px;
+  max-height: 64px;
+  display: inline-block left;
+}
+
+.Nav-item {
+  display: inline-block right;
+  height: 100px;
+}

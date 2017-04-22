@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ToDoList from './ToDoList';
+import NavBar from './NavBar';
 import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +23,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <NavBar></NavBar>
         <div className="App-header">
           <h2>ToDo Example</h2>
         </div>
