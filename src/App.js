@@ -10,7 +10,7 @@ class App extends Component {
     // TODO: Pull the list from a server
     this.state = {
       toDoList: [
-        "Poop",
+        "Wake up",
         "Coffee",
         "Make eggs",
         "Call tech support",

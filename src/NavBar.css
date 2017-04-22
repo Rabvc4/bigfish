@@ -8,5 +8,5 @@
 
 .Nav-item {
   display: inline-block right;
-  height: 100px;
+  padding: 5px;
 }
