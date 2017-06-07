@@ -6,7 +6,7 @@ class NavBar extends Component {
   render() {
       return (
         <ul>
-          <li className="Nav-item"><img src={logo} className="Nav-logo App-logo" alt="logo" /></li>
+          <li className="Nav-logo"><img src={logo} className="Nav-logo App-logo" alt="logo" /></li>
           <li><a href="/home.html">Home</a></li>
           <li><a href="/index.html">Index</a></li>
           <li className="dropdown">

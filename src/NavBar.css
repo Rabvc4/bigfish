@@ -3,7 +3,7 @@
   width: auto;
   max-width: 64px;
   max-height: 64px;
-  display: inline-block left;
+  float: left;
 }
 
 .Nav-item {
