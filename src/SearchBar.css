@@ -1,12 +1,15 @@
-.Search-Bar {
-  font-size: 20px;
-}
-
 .Search-Area {
   font-size: 20px;
-  float: left;
+  display: block;
   padding: 5px;
   clear: both;
+  position: absolute;
+}
+
+.Search-Bar {
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
 }
 
 .Search-FlavorText {
