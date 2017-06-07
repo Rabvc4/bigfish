@@ -8,5 +8,11 @@
 
 .Nav-item {
   display: inline-block right;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.dropdown-content {
+  font-size: 16px;
   padding: 5px;
 }
