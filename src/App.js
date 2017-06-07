@@ -26,12 +26,13 @@ class App extends Component {
       <div className="App">
         <NavBar></NavBar>
         <div className="App-header">
-          <h2>To-Do List</h2>
+          <h2>Big Fish</h2>
+          <h3>Customer Relationship Management</h3>
+          <SearchBar></SearchBar>
         </div>
         <p className="App-intro">
           This is an application designed to accept an item to do. After completing the item to do, a user may check the item as done.
         </p>
-        <SearchBar></SearchBar>
         <ToDoList aList={toDoList} />
       </div>
     );

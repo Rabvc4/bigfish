@@ -15,18 +15,19 @@ import './SearchBar.css';
     }
 
     handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
+      alert('A search was submitted: ' + this.state.value);
       event.preventDefault();
     }
 
     render() {
       return (
-        <form onSubmit={this.handleSubmit}>
+        <form className="Search-Area" onSubmit={this.handleSubmit}>
           <label>
             Search:
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <input className="Search-Bar" type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Submit" />
+          <div className="Search-FlavorText">Type in the textbox and hit "ENTER" to search</div>
         </form>
       );
     }
