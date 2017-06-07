@@ -10,11 +10,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(0,75,140);
-    border-top: 4px solid transparent;
+    /*border-top: 4px solid transparent;*/
 }
 
 li {
     float: right;
+
 }
 
 li a, .dropbtn {
@@ -26,7 +27,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    border-top: 4px solid #ffffff;
+    /*border-top: 4px solid #ffffff;*/
     color: #ffffff;
 }
 
