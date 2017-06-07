@@ -10,7 +10,7 @@ class NavBar extends Component {
           <li><a href="/home.html">Home</a></li>
           <li><a href="/index.html">Index</a></li>
           <li className="dropdown">
-            <a href="javascript:void(0)" className="dropbtn">Dropdown</a>
+            <a href="#" className="dropbtn">Dropdown</a>
             <div className="dropdown-content">
               <a href="#">Link 1</a>
               <a href="#">Link 2</a>
