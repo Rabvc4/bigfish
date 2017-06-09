@@ -27,7 +27,7 @@ class App extends Component {
         <NavBar></NavBar>
         <div className="App-header">
           <h2>Big Fish</h2>
-          <h3>Customer Relationship Management</h3>
+          <h3>Customer Relationship Manager</h3>
           <SearchBar maxlength="2048"></SearchBar>
         </div>
         <p className="App-intro">
